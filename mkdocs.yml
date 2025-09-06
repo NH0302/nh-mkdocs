@@ -1,0 +1,17 @@
+site_name: MyProject Docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - MyFirst:
+      - Test: my_first/page1.md
+  - User Guide:
+      - Introduction: user/intro.md
+      - Setup: user/setup.md
+      - Advanced: user/advanced.md
+  - Developer Docs:
+      - API Reference: dev/api.md
+      - Internals: dev/internals.md
+
+repo_url: https://github.com/NH0302/nh-mkdocs
+# site_url: https://NH0302.github.io/docs-myproject/
